@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/ha.ico" style="color:white"> 
+    <title>Hussein</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awessome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <!-- Our-Css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+    <!-- Spinner -->
+        <div class="container-fluid spinner-content">
+            <div class="spinner">
+                <i class="fas fa-circle-notch"></i>
+            </div>
+        </div>
+    <!-- ./Spinner -->
+    
+
+    <!-- nav -->
+    <nav class="navbar text-center fixed-top" >
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler navBtn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <i class="fas fa-bars navBtnIcon"></i> 
+        </button>
+        <span class="navName text-center">Hussein Alaa</span>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse nav-holder" id="collapsibleNavbar" >
+          <ul class="navbar-nav navlinks">
+            <li class="nav-item">
+              <a class="nav-link" id="aboutBtn" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="servicesBtn" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="skillsBtn" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="workBtn" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contactBtn" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- ./nav -->
+
+    <!-- Welcome  -->
+    <div class="home  hidden welcome" id="welcomeSection">
+        
+        <div id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 welcome-text text-center text-light">
+                        <h1 >
+                            <span id="typed-strings"></span>
+                        </h1>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+    
+    </div>
+    <!-- ./Welcome  -->
+
+    <!-- About -->
+    <div class="home hidden  about " id="aboutSection">
+
+        
+        <div id="about ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="about-img">
+                            <img src="Images/hussein.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6  col-sm-12">
+                        <div class="about-text text-center">
+                            <p>
+                            <span id="typed-strings2"></span>
+                            </p>
+                            <div class="cvP mt-2 mb-3" style="font-size: 13px;">You can read more about my biography, experience, skills, education and much more in my resume attached below. </div>
+
+                            <a href="download/Hresume.pdf" class='cvBtn'  target="_blank"  download>Download resume.</a>  
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div> 
+    <!-- ./About -->
+
+    <!-- Services -->
+    <div class="home hidden " id="servicesSection">
+        <div id="services">
+            <div class="container">
+
+                <div class="row text-light">
+
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <i class="fas fa-laptop"></i>
+                            <p  class="service-title">Web Development</p>
+                            <p>Design a responsive web site for you With Html5 , CSS3 , Javascript and Bootstrap.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <p  class="service-title">Responsive Design</p>
+                            <p>By making the website Responsive with all screens, phones, computers, iPads. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <i class="fas fa-code"></i>
+                            <p  class="service-title">Clean Code</p>
+                            <p>organize and Write clean , readable code. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <i class="fas fa-coffee"></i>
+                            <p  class="service-title">Support</p>
+                            <p>Support is availble if you want any changes in your website you can ask for it anytime. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <p  class="service-title">Web Idea</p>
+                            <p>I can turn your ideas to real projects with high quality and give you more ideas to make your website cool.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <p  class="service-title">Retouch  </p>
+                            <p>If You Have a Website And Want to Create A new Desgin For It I Can do That Easliy and In a Perfect Way.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./Services -->
+
+   <div class="home hidden mt-3" id="skillsSection">
+       <div id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="progress-title">HTML5</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%"></div>
+                    </div>
+                </div>       
+                <div class="col-lg-6">
+                    <h3 class="progress-title">CSS3</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%"></div>
+                    </div>
+                </div>    
+                <div class="col-lg-6">
+                    <h3 class="progress-title">JAVASCRIPT</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%"></div>
+                    </div>
+                </div>    
+                <div class="col-lg-6">
+                    <h3 class="progress-title">BOOTSTRAP</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%"></div>
+                    </div>
+                </div>    
+                <div class="col-lg-6">
+                    <h3 class="progress-title">REACT.JS</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%"></div>
+                    </div>
+                </div>    
+                <div class="col-lg-6">
+                    <h3 class="progress-title">ANGULAR</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%"></div>
+                    </div>
+                </div>    
+
+                <div class="col-lg-6">
+                    <h3 class="progress-title">PHP</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:65%"></div>
+                    </div>
+                </div>    
+                <div class="col-lg-6">
+                    <h3 class="progress-title">MySql</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%"></div>
+                    </div>
+                </div>   
+                
+                
+                   
+            </div>
+            
+        </div>
+       </div>
+   </div>
+
+   <div class="home hidden " id="workSection">
+       <div id="work">
+          <div class="container" style="padding:0; margin:0;">
+            <div class="work-title text-light text-center p-3">
+                <h3> Recent Work </h3>
+                
+            </div> 
+            
+            
+               <div class="owl-carousel owl-theme owl-loaded owl-drag">
+                <div class="item ">
+                       
+                    <div class="work-item">
+                        <img src="Images/luxestate.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/luxestate/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item" >
+                    <div class="work-item">
+                        <img src="Images/bride&groom.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/Bride-Groom/"  class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/hmdb.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/HMDB/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/Hussein-sPortfolio.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/hussPortfolio/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/Html-Css (1).png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/Html-Css/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/Github-Profile (1).png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/Github-users/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/shop-basketball.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/el-nady/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/github.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/Weather-App/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/Html-Css2.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/html-css-Responsive/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/Todo.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/todos/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                
+                
+                
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/Drawing-App.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/Drawing-App/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                <div class="item">
+                    <div class="work-item">
+                        <img src="Images/New-Year-s-Eve.png">
+                        <div class="overlay">
+                            <a target="_blank" href="https://husseinalaa15.github.io/NewYear-sCountDown/" class="btn">View Website</a>
+                        </div>
+                    </div> <!-- ./work-item -->
+                </div><!-- ./item -->
+                  
+               </div>
+                
+                
+
+
+
+          </div>
+          
+       </div>
+   </div>
+
+   <div class="home hidden" id="contactSection">
+       <div id="contact">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12  text-center text-light contact-content">
+                    <h4>Thank You!</h4>
+                    <p>If you have any questions, or just want to say hello, feel free to contact me. Below are my social pages and my email.</p>
+                    <div class="container socialmedia">
+                        <a target="_blank" href="mailto:hussein.alaa12199@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <a target="_blank" href="tel:01150370370"><i class="fa fa-phone-alt"></i></a>
+                        <a target="_blank" href="https://wa.me/201150370370"><i class="fab fa-whatsapp"></i></a>
+                        <a target="_blank" href="https://github.com/husseinalaa15"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+   </div>
+
+
+   <!-- owl carousel -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+   
+   <script src="js/script.js"></script>
+</body>
+</html>
