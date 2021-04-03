@@ -136,8 +136,8 @@ $(document).ready(function(){
                     stagePadding: 350
                 },
                 1800:{
-                    items:1,
-                    stagePadding: 400
+                    items:1
+                  
                 }
             }
         });
